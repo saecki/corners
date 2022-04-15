@@ -1,0 +1,155 @@
+SplineFontDB: 3.2
+FontName: corners
+FullName: corners
+FamilyName: corners
+Weight: Regular
+Copyright: 
+Version: 0.1.0
+ItalicAngle: 0
+UnderlinePosition: -140
+UnderlineWidth: 45
+Ascent: 800
+Descent: 200
+InvalidEm: 0
+sfntRevision: 0x00010000
+LayerCount: 2
+Layer: 0 1 "Back" 1
+Layer: 1 1 "Fore" 0
+XUID: [1021 39 913724026 8940918]
+StyleMap: 0x0040
+FSType: 4
+OS2Version: 4
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 1
+CreationTime: 1579784211
+ModificationTime: 1650040236
+PfmFamily: 17
+TTFWeight: 400
+TTFWidth: 5
+LineGap: 0
+VLineGap: 0
+Panose: 2 1 5 9 2 1 2 5 0 4
+OS2TypoAscent: 980
+OS2TypoAOffset: 0
+OS2TypoDescent: -240
+OS2TypoDOffset: 0
+OS2TypoLinegap: 0
+OS2WinAscent: 980
+OS2WinAOffset: 0
+OS2WinDescent: 245
+OS2WinDOffset: 0
+HheadAscent: 980
+HheadAOffset: 0
+HheadDescent: -240
+HheadDOffset: 0
+OS2SubXSize: 650
+OS2SubYSize: 600
+OS2SubXOff: 0
+OS2SubYOff: 75
+OS2SupXSize: 650
+OS2SupYSize: 600
+OS2SupXOff: 0
+OS2SupYOff: 350
+OS2StrikeYSize: 45
+OS2StrikeYPos: 325
+OS2CapHeight: 720
+OS2XHeight: 550
+OS2Vendor: '    '
+OS2CodePages: 00000097.00000000
+OS2UnicodeRanges: 80000227.00000001.00000000.00000000
+MarkAttachClasses: 1
+DEI: 91125
+LangName: 1033 "" "" "" "" "" "Version 0.1.0" "" "" "" "Tobias Schmitz"
+GaspTable: 1 65535 15 1
+Encoding: UnicodeBmp
+UnicodeInterp: none
+NameList: AGL For New Fonts
+DisplaySize: -48
+AntiAlias: 1
+FitToEm: 0
+WinInfo: 58254 38 14
+BeginPrivate: 0
+EndPrivate
+TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
+BeginChars: 65695 4
+
+StartChar: uniE4C5
+Encoding: 58565 58565 0
+Width: 600
+GlyphClass: 2
+Flags: W
+HStem: -311 60 367 60 987 60
+VStem: 16 60
+LayerCount: 2
+Fore
+SplineSet
+16 427 m 0,0,1
+ 16 782 16 782 312 958 c 0,2,3
+ 461 1047 461 1047 606 1047 c 1,4,5
+ 606 1047 606 1047 606 -311 c 1,6,-1
+ 16 -311 l 1,7,-1
+ 16 427 l 0,0,1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: uniE4C6
+Encoding: 58566 58566 1
+Width: 600
+GlyphClass: 2
+Flags: MW
+VStem: 0 590<-311 602.964>
+LayerCount: 2
+Fore
+SplineSet
+0 -311 m 0,0,-1
+ 0 1047 l 1,1,2
+ 145 1047 145 1047 294 958 c 0,3,4
+ 590 782 590 782 590 427 c 0,5,6
+ 590 427 590 427 590 -311 c 1,7,-1
+ 0 -311 l 0,0,-1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: uniE4C7
+Encoding: 58567 58567 2
+Width: 600
+GlyphClass: 2
+Flags: MW
+HStem: -311 60 307 60 987 60
+VStem: 530 60
+LayerCount: 2
+Fore
+SplineSet
+0 1047 m 128,-1,1
+ 0 1047 0 1047 590 1047 c 1,2,-1
+ 590 307 l 0,3,4
+ 590 -43 590 -43 294 -220 c 0,5,6
+ 141 -311 141 -311 0 -311 c 1,7,0
+ 0 1047 0 1047 0 1047 c 128,-1,1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: uniE4C8
+Encoding: 58568 58568 3
+Width: 600
+GlyphClass: 2
+Flags: MW
+HStem: -311 60 307 60 987 60
+VStem: 16 60
+LayerCount: 2
+Fore
+SplineSet
+606 1047 m 0,0,-1
+ 606 -311 l 1,1,2
+ 465 -311 465 -311 312 -220 c 0,3,4
+ 16 -43 16 -43 16 307 c 0,5,6
+ 16 307 16 307 16 1047 c 0,7,-1
+ 606 1047 l 0,0,-1
+EndSplineSet
+Validated: 1
+EndChar
+EndChars
+EndSplineFont

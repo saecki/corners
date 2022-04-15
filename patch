@@ -1,0 +1,41 @@
+#!/usr/bin/env python3
+
+import sys
+import fontforge
+
+CORNERS_SYMBOLS_START = 0xe4c5
+CORNERS_SYMBOLS_END = 0xe4c8
+
+if len(sys.argv) < 2:
+    print("Specify the input font")
+    exit()
+
+if len(sys.argv) < 3:
+    print("Specify the output file name")
+    exit()
+
+font_file = sys.argv[1]
+output_file = sys.argv[2]
+
+
+# Load fonts
+print(f"Reading font from {font_file}")
+font = fontforge.open(font_file)
+
+corners = fontforge.open("corners.ttf")
+corners.em = font.em
+
+
+# Patch font
+corners.selection.select(("ranges", "unicode"), CORNERS_SYMBOLS_START, CORNERS_SYMBOLS_END)
+for glyph in list(corners.selection.byGlyphs):
+    corners.selection.select(glyph.encoding)
+    corners.copy()
+
+    font.selection.select(glyph.encoding)
+    font.paste()
+
+
+# Write patched font
+print(f"Writing patched font to {output_file}")
+font.generate(output_file)

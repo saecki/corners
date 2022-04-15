@@ -1,6 +1,10 @@
 # corners
 Patch 4 corner glyphs into a font.
 
+## Dependencies
+- `python3`
+- `fontforge`
+
 ## Patching
 `./patch <input-font> <output-file-name>`
 

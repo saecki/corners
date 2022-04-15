@@ -17,3 +17,15 @@ Patch 4 corner glyphs into a font.
 - `e4ca` `` half-top-right
 - `e4cb` `` half-bottom-right
 - `e4cc` `` half-bottom-left
+
+## Neovim borders
+
+### Full height
+```lua
+border = { "", "█", "", "█", "", "█", "", "█" }
+```
+
+### Half height
+```lua
+border = { "", "▄", "", "█", "", "▀", "", "█" }
+```

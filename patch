@@ -4,7 +4,7 @@ import sys
 import fontforge
 
 CORNERS_SYMBOLS_START = 0xe4c5
-CORNERS_SYMBOLS_END = 0xe4c8
+CORNERS_SYMBOLS_END = 0xe4cc
 
 if len(sys.argv) < 2:
     print("Specify the input font")

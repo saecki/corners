@@ -1,5 +1,5 @@
 # corners
-Patch 4 corner glyphs into a font.
+Patch a bunch of corner glyphs into a font.
 
 ## Dependencies
 - `python3`

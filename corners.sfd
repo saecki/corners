@@ -2,11 +2,10 @@ SplineFontDB: 3.2
 FontName: corners
 FullName: corners
 FamilyName: corners
-Weight: Regular
-Copyright: 
+Weight: Book
 Version: 0.1.0
 ItalicAngle: 0
-UnderlinePosition: -140
+UnderlinePosition: -137
 UnderlineWidth: 45
 Ascent: 800
 Descent: 200
@@ -15,14 +14,14 @@ sfntRevision: 0x00010000
 LayerCount: 2
 Layer: 0 1 "Back" 1
 Layer: 1 1 "Fore" 0
-XUID: [1021 39 913724026 8940918]
+XUID: [1021 556 -283621061 2516642]
 StyleMap: 0x0040
 FSType: 4
 OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1579784211
-ModificationTime: 1650064552
+ModificationTime: 1678507552
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -59,7 +58,29 @@ OS2CodePages: 00000097.00000000
 OS2UnicodeRanges: 80000227.00000001.00000000.00000000
 MarkAttachClasses: 1
 DEI: 91125
-LangName: 1033 "" "" "" "" "" "Version 0.1.0" "" "" "" "Tobias Schmitz"
+ShortTable: cvt  2
+  33
+  633
+EndShort
+ShortTable: maxp 16
+  1
+  0
+  11
+  8
+  2
+  0
+  0
+  2
+  0
+  1
+  1
+  0
+  64
+  46
+  0
+  0
+EndShort
+LangName: 1033 "" "" "Regular" "FontForge 2.0 : corners : 15-4-2022" "" "Version 0.1.0" "" "" "" "Tobias Schmitz"
 GaspTable: 1 65535 15 1
 Encoding: UnicodeBmp
 UnicodeInterp: none
@@ -67,159 +88,227 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 58254 38 14
-BeginPrivate: 0
-EndPrivate
-TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65695 8
+WinInfo: 58064 38 14
+BeginChars: 65539 11
 
-StartChar: uniE4C5
-Encoding: 58565 58565 0
+StartChar: .notdef
+Encoding: 65536 -1 0
 Width: 600
-GlyphClass: 2
+GlyphClass: 1
 Flags: W
-HStem: -311 60 367 60 987 60
-VStem: 16 60
+TtInstrs:
+PUSHB_2
+ 1
+ 0
+MDAP[rnd]
+ALIGNRP
+PUSHB_3
+ 7
+ 4
+ 0
+MIRP[min,rnd,black]
+SHP[rp2]
+PUSHB_2
+ 6
+ 5
+MDRP[rp0,min,rnd,grey]
+ALIGNRP
+PUSHB_3
+ 3
+ 2
+ 0
+MIRP[min,rnd,black]
+SHP[rp2]
+SVTCA[y-axis]
+PUSHB_2
+ 3
+ 0
+MDAP[rnd]
+ALIGNRP
+PUSHB_3
+ 5
+ 4
+ 0
+MIRP[min,rnd,black]
+SHP[rp2]
+PUSHB_3
+ 7
+ 6
+ 1
+MIRP[rp0,min,rnd,grey]
+ALIGNRP
+PUSHB_3
+ 1
+ 2
+ 0
+MIRP[min,rnd,black]
+SHP[rp2]
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
-16 427 m 0,0,1
+33 0 m 1,0,-1
+ 33 666 l 1,1,-1
+ 298 666 l 1,2,-1
+ 298 0 l 1,3,-1
+ 33 0 l 1,0,-1
+66 33 m 1,4,-1
+ 265 33 l 1,5,-1
+ 265 633 l 1,6,-1
+ 66 633 l 1,7,-1
+ 66 33 l 1,4,-1
+EndSplineSet
+EndChar
+
+StartChar: .null
+Encoding: 65537 -1 1
+Width: 0
+GlyphClass: 1
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: nonmarkingreturn
+Encoding: 65538 -1 2
+Width: 600
+GlyphClass: 1
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uniE4C5
+Encoding: 58565 58565 3
+Width: 600
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+16 427 m 2,0,1
  16 782 16 782 312 958 c 0,2,3
  461 1047 461 1047 606 1047 c 1,4,5
  606 1047 606 1047 606 -311 c 1,6,-1
  16 -311 l 1,7,-1
- 16 427 l 0,0,1
+ 16 427 l 2,0,1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uniE4C6
-Encoding: 58566 58566 1
+Encoding: 58566 58566 4
 Width: 600
 GlyphClass: 2
-Flags: MW
-VStem: 0 590<-311 602.964>
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
-0 -311 m 0,0,-1
+0 -311 m 1,0,-1
  0 1047 l 1,1,2
  145 1047 145 1047 294 958 c 0,3,4
- 590 782 590 782 590 427 c 0,5,6
+ 590 782 590 782 590 427 c 2,5,6
  590 427 590 427 590 -311 c 1,7,-1
- 0 -311 l 0,0,-1
+ 0 -311 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uniE4C7
-Encoding: 58567 58567 2
+Encoding: 58567 58567 5
 Width: 600
 GlyphClass: 2
-Flags: MW
-HStem: -311 60 307 60 987 60
-VStem: 1 10 530 60
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
-590 1047 m 0,0,-1
- 590 307 l 0,1,2
+590 1047 m 1,0,-1
+ 590 307 l 2,1,2
  590 -43 590 -43 294 -220 c 0,3,4
  141 -311 141 -311 0 -311 c 1,5,6
  0 -311 0 -311 0 1047 c 1,7,-1
- 590 1047 l 0,0,-1
+ 590 1047 l 1,0,-1
 EndSplineSet
 EndChar
 
 StartChar: uniE4C8
-Encoding: 58568 58568 3
+Encoding: 58568 58568 6
 Width: 600
 GlyphClass: 2
-Flags: MW
-HStem: -311 60 307 60 987 60
-VStem: 16 60
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
-606 1047 m 0,0,-1
+606 1047 m 1,0,-1
  606 -311 l 1,1,2
  465 -311 465 -311 312 -220 c 0,3,4
- 16 -43 16 -43 16 307 c 0,5,6
- 16 307 16 307 16 1047 c 0,7,-1
- 606 1047 l 0,0,-1
+ 16 -43 16 -43 16 307 c 2,5,6
+ 16 307 16 307 16 1047 c 1,7,-1
+ 606 1047 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uniE4C9
-Encoding: 58569 58569 4
+Encoding: 58569 58569 7
 Width: 600
-Flags: MW
-HStem: -273 700 347 700
-VStem: 16 60
+GlyphClass: 2
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
-16 -273 m 0,0,1
- 16 81 16 81 312 258 c 0,2,3
- 461 347 461 347 606 347 c 1,4,5
- 606 347 606 347 606 -311 c 1,6,-1
- 16 -311 l 1,7,-1
- 16 -273 l 0,0,1
+16 -332 m 2,0,1
+ 16 22 16 22 312 199 c 0,2,3
+ 461 288 461 288 606 288 c 1,4,5
+ 606 288 606 288 606 -370 c 1,6,-1
+ 16 -370 l 1,7,-1
+ 16 -332 l 2,0,1
 EndSplineSet
 EndChar
 
 StartChar: uniE4CA
-Encoding: 58570 58570 5
+Encoding: 58570 58570 8
 Width: 600
-Flags: MW
-HStem: -273 700 347 700
-VStem: 0 590<-311 602.964>
+GlyphClass: 2
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
-0 -311 m 0,0,-1
- 0 347 l 1,1,2
- 145 347 145 347 294 258 c 0,3,4
- 590 82 590 82 590 -273 c 0,5,6
- 590 -273 590 -273 590 -311 c 1,7,-1
- 0 -311 l 0,0,-1
+0 -370 m 1,0,-1
+ 0 288 l 1,1,2
+ 145 288 145 288 294 199 c 0,3,4
+ 590 23 590 23 590 -332 c 2,5,6
+ 590 -332 590 -332 590 -370 c 1,7,-1
+ 0 -370 l 1,0,-1
 EndSplineSet
 EndChar
 
 StartChar: uniE4CB
-Encoding: 58571 58571 6
+Encoding: 58571 58571 9
 Width: 600
-Flags: MW
-HStem: -311 700 307 700
-VStem: 1 10 530 60
+GlyphClass: 2
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
-590 1047 m 0,0,-1
- 590 1007 l 0,1,2
- 590 656 590 656 294 480 c 0,3,4
- 141 389 141 389 0 389 c 1,5,6
- 0 389 0 389 0 1047 c 1,7,-1
- 590 1047 l 0,0,-1
+590 1040 m 1,0,-1
+ 590 960 l 2,1,2
+ 590 610 590 610 294 433 c 0,3,4
+ 141 342 141 342 0 342 c 1,5,6
+ 0 342 0 342 0 1040 c 1,7,-1
+ 590 1040 l 1,0,-1
 EndSplineSet
 EndChar
 
 StartChar: uniE4CC
-Encoding: 58572 58572 7
+Encoding: 58572 58572 10
 Width: 600
-Flags: MWO
-HStem: -311 700 307 700
-VStem: 16 60 606 10
+GlyphClass: 2
+Flags: WO
 LayerCount: 2
 Fore
 SplineSet
-606 1047 m 0,0,-1
- 606 389 l 1,1,2
- 466 389 466 389 312 480 c 0,3,4
- 16 653 16 653 16 1007 c 0,5,6
- 16 1007 16 1007 16 1047 c 0,7,-1
- 606 1047 l 0,0,-1
+606 1040 m 1,0,-1
+ 606 342 l 1,1,2
+ 466 342 466 342 312 433 c 0,3,4
+ 16 607 16 607 16 960 c 2,5,6
+ -3.84911986588 995.339480302 -3.84911986588 995.339480302 16 1040 c 1,7,-1
+ 606 1040 l 1,0,-1
 EndSplineSet
 EndChar
 EndChars
